@@ -3,7 +3,7 @@ buildscript {
         jcenter()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:2.3.3'
+        classpath 'com.android.tools.build:gradle:3.0.1'
         classpath 'com.github.dcendents:android-maven-gradle-plugin:1.4.1'
         classpath 'com.jfrog.bintray.gradle:gradle-bintray-plugin:1.7.3'
         // NOTE: Do not place your application dependencies here; they belong
@@ -20,7 +20,7 @@ allprojects {
 
 ext {
     sdk = 25
-    buildTools = "25.0.0" //keep 25.0.0 for Continuous Integration
+    buildTools = "26.0.2" //keep 25.0.0 for Continuous Integration
     minSdk = 10
     libraryVersion = "1.0.8"
     supportVersion = "25.0.0"
